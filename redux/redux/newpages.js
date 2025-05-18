@@ -5,16 +5,13 @@ import "./NewsPage.css";
 const NewsPage = () => {
   const { id } = useParams();
 
-  // Burada gerçek API'den fetch yapabiliriz.
-  // Şimdilik sahte içerik gösteriyoruz:
+
   return (
     <div className="news-detail">
       <h2>Haber #{id}</h2>
-      <img src={`https://via.placeholder.com/800x400?text=News+${id}`} alt={`News ${id}`} />
+      <img src={`https://i.ytimg.com/vi/2d6h0uJs9ns/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAPo5MJOzT4jl2lbZQSYjOSXxHW4A+${id}`} alt={`News ${id}`} />
       <p>
-        Bu, haber detay sayfasıdır. Burada gerçek haber içeriği yer alacaktır.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
-        Sed cursus ante dapibus diam. Sed nisi.
+        Diyarbakır ve Mardin'den kahreden haberler geliyor: Ferit Demir yaşanan dehşeti tek tek anlattı!
       </p>
     </div>
   );
