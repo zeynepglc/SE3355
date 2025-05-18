@@ -1,5 +1,5 @@
 export const fetchSliderNews = async () => {
-    // Gerçek API varsa fetch kullanılır
+
     return [
       return [
       { id: 1, title: "Bakan Şimşek'ten dezenflasyon değerlendirmesi", image: "https://geoim.bloomberght.com/l/2025/05/17/ver1747495554/3748731/jpg/640x360", content: "Detaylar..." },
