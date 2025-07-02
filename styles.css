@@ -3,13 +3,14 @@ body {
     font-family: Arial, sans-serif;
     font-size: large;
     font-weight: bold;
+    color: #060504;
     
 }
 
 /* Quick Links Cards */
 .quick-link-card {
-    background-color: #ff9800;
-    color: rgb(95, 84, 84);
+    background-color: #060504;
+    color: rgb(200, 20, 20);
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;

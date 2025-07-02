@@ -20,16 +20,16 @@ async function fetchData(url) {
 //  Main Slider
 async function initMainSlider() {
     const sliderData = await fetchData(MOCK_APIS.sliderData) || [
-        { image: 'https://emlakkulisi.com.tr/resim/orjinal/NzU3Njg5Nz-philips-kucuk-ev-aletlerinde-tum-indirimlere-ek-net-yuzde-5-indirim-hepsiburada-5-ekim-2022-fiyat-listesi.png', heading: 'PHILIPS KAMPANYA' },
-        { image: 'https://images.hepsiburada.net/banners/s/1/832-364/banner_copy__(yeni_tasarim)133803808664865707.png/format:webp', heading: 'KAZANDIRAN ÇEKİLİŞ' },
-        { image: 'https://images.hepsiburada.net/banners/s/1/832-364/gra-191712-appbanner133862318784984349.jpg/format:webp', heading: ' APPLE KAMPANYA' },
-        { image: 'https://images.hepsiburada.net/banners/s/1/832-364/app133887594688018487.png/format:webp', heading: 'PREMIUM GUNLERİ' },
-        { image: 'https://images.hepsiburada.net/banners/s/1/1280-400/category-bilg-kazandiranprmiumlenovoslim3hero-14-04f133892826731656405.jpg/format:webp', heading: 'LENOVA BİLGİSAYAR' },
-        { image: 'https://images.hepsiburada.net/banners/s/1/832-364/gra-193964-appbanner_(1)133892833378839915.jpg/format:webp', heading: 'DYSON KAMPANYA' },
-        { image: 'https://images.hepsiburada.net/banners/s/1/832-364/gra-193452-appbanner133888306389687445.jpg/format:webp', heading: 'KARACA' },
-        { image: 'https://images.hepsiburada.net/banners/s/1/832-364/gra-192063-appbanner_(1)133870199560983678.jpg/format:webp', heading: 'WINDOWS' },
-        { image: 'https://images.hepsiburada.net/banners/s/1/832-364/gra-193190-appbanner133890333991521698.jpg/format:webp', heading: 'PAŞABAHÇE' },
-         { image: 'https://images.hepsiburada.net/banners/s/1/832-364/gra-193744-appbanner133891877199872687.jpg/format:webp', heading: 'JUMBO' },
+        { image: 'https://upload.wikimedia.org/wikipedia/tr/c/c0/The_Pianist_Poster.jpg',heading: 'THE PİANİST' },
+        { image: 'https://iasbh.tmgrup.com.tr/012de3/0/0/0/0/0/0?u=https://isbh.tmgrup.com.tr/sb/album/2024/01/28/garipin-fatosu-36-yilda-oyle-bir-degisti-ki-o-tatli-kiz-sen-misin-adeta-sirra-kadem-basti-iste-ece-altonun-son-1706411835681.jpg&mw=600', heading: 'AYLA' },
+        { image: 'https://cdnuploads.aa.com.tr/uploads/Contents/2022/08/25/thumbs_b_c_e02375d936a5d9ab6499dfbc83efce50.jpg?v=095620', heading: ' AVATAR' },
+        { image: 'https://image.milimaj.com/i/milliyet/75/869x477/5f57890dadcdeb1ad018b6a3.jpg', heading: 'YEŞİL YOL' },
+        { image: 'https://www.postifull.com.tr/cdn/shop/products/100740a1.jpg?v=1680959095', heading: 'THE PRINCESS' },
+        { image: 'https://www.perasinema.com/wp-content/uploads/2022/09/1blackswan.jpg', heading: '' },
+        { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRss6NtvgA8Dv_5DNLG0xsuiJ6sqg_tjfwHzg&s', heading: '' },
+        { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP7r-Njo599ouXFTvDKNMdIbU7ItwpsB_rAQ&s', heading: '' },
+        { image: 'https://static.nadirkitap.com/fotograf/221106/15/Efemera_201910201524281.jpg', heading: '' },
+         { image: 'https://d35fbhjemrkr2a.cloudfront.net/Images/Shop/31/Product/6925/Thumb/197.jpg', heading: '' },
         
         
     ];
@@ -51,14 +51,14 @@ async function initMainSlider() {
 // Links
 async function initQuickLinks() {
     const quickLinksData = await fetchData(MOCK_APIS.quickLinks) || [
-        { title: 'PREMIUM GUNLERI', link: '#' },
-        { title: 'YENI GELENLER', link: '#' },
-        { title: 'SEPETTE %30', link: '#' },
-        { title: 'SON FIRSATLAR', link: '#' },
-        { title: 'YURTDIŞINDAN', link: '#' },
-        { title: 'ÇOCUK ÜRÜNLERİ', link: '#' },
-        { title: 'KAMPANYALAR', link: '#' },
-        { title: 'ELBİSELER', link: '#' },
+        { title: 'Dune: Part Two', link: '#' },
+        { title: 'Godzilla x Kong: The New Empire', link: 'https://www.wherecaniwatchthis.tv/?country=TR&movie=693134&utm_source=chatgpt.com' },
+        { title: 'Oppenheimer', link: '#' },
+        { title: 'Barbie', link: '#' },
+        { title: 'The Gentlemen (Netflix)', link: '#' },
+        { title: 'Road House', link: '#' },
+        { title: 'Shōgun (FX)', link: '#' },
+        { title: '3 Body Problem (Netflix)', link: '#' },
 
     ];
 
@@ -79,9 +79,9 @@ async function initQuickLinks() {
 
 async function initElektronikFirsatlar() {
     const elektronikData = await fetchData(MOCK_APIS.elektronikFirsatlar) || [
-        { image: 'https://productimages.hepsiburada.net/s/405/424-600/110000433380673.jpg/format:webp', name: 'Kodak Pıxpro Friendly Zoom FZ55-BL 16MP Dijital Kamera', price: '10.690,00 TLL' },
-        { image: 'https://cdn.vatanbilgisayar.com/Upload/PRODUCT/hp/thumb/149879-1_small.jpg', name: 'Apple MacBook Air M2 8GB 512GB SSD macOS 13" Taşınabilir Bilgisayar Uzay Grisi', price: '36.999,00 TL' },
-        { image: 'https://productimages.hepsiburada.net/s/54/424-600/11174010585138.jpg/format:webp', name: 'https://productimages.hepsiburada.net/s/54/424-600/11174010585138.jpg/format:webp', price: '2.998,45 TL' },
+        { image: 'https://resizing.flixster.com/tdMXmsVnR-vIj4Q5IACpEZ7O1ak=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15987_v_h8_au.jpg', name: 'The Shawshank Redemption (1994)', puan: ' 9.3/10' },
+        { image: 'https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_.jpg', name: 'The Godfather (1972) ', puan: ' 9.2/10' },
+        { image: 'https://play-lh.googleusercontent.com/auIs5tjWlLYaFPGClZOJ7m5YVbnX6uBvz0X02r8TkwFKdzE53ww2MqWSS9gU0YNqoYwvpg', name: 'The Dark Knight ', puan: '2.998,45 TL' },
         
     ];
 
@@ -107,18 +107,14 @@ async function initElektronikFirsatlar() {
 //  Recommendations
 async function initRecommendations() {
     const recommendationsData = await fetchData(MOCK_APIS.recommendations) || [
-        { image: 'https://productimages.hepsiburada.net/s/42/200-200/10727354302514.jpg/format:webp', name: 'Kiwi KSI-6450 Kırışık Giderici Buharlı Dikey Ütü Gri', price: '799TL', rating: 4 },
-        { image: 'https://productimages.hepsiburada.net/s/80/200-200/110000022551796.jpg/format:webp', name: 'Arzum AR1092 Mano 1700 Watt El Blender Seti - Kırmızı', price: '1.789,27 TL', rating: 4},
-        { image: 'https://productimages.hepsiburada.net/s/508/200-200/110000562611699.jpg/format:webp', name: 'Omo Sıvı Active Cold Power Beyazlar ve Renkliler İçin Çamaşır Deterjanı 1690 ml', price: '226,90 TL', rating: 5 },
-        { image: 'https://productimages.hepsiburada.net/s/777/200-200/110000939207549.jpg/format:webp', name: 'Huawei FreeArc Kablosuz Kulakiçi Kulaklık - Gri', price: '4.639,58 TL', rating: 4 },
-        { image: 'https://productimages.hepsiburada.net/s/777/200-200/110000898486784.jpg/format:webp', name: 'Philips PerfectCare Compact Plus Buhar kazanlı ütü GC7920/20', price: '3.999,00 TL', rating: 5 },
-        { image: 'https://productimages.hepsiburada.net/s/777/200-200/110000822450792.jpg/format:webp', name: 'Samsung Galaxy A25 5G 128 GB 6 GB Ram ', price: '12.797,05 TL', rating: 4 },
-        { image: 'https://productimages.hepsiburada.net/s/777/200-200/110000773211682.jpg/format:webp', name: 'Apple Airpods 4. Nesil', price: '6.578,00 TL', rating: 5 },
-        { image: 'https://productimages.hepsiburada.net/s/777/200-200/110000742393588.jpg/format:webp', name: 'NYX Professional Makeup Buttermelt Blush Kremsi Pembe Pudra Allık - 08 Getting Butta', price: '220,00 TL', rating: 4 },
-        { image: 'https://productimages.hepsiburada.net/s/777/424-600/110000731845073.jpg/format:webp', name: ' La Roche Posay Anthelios Invisible Fluid Spf 50 Güneş Kremi 50 ml', price: '420,00 TL', rating: 5 },
-        { image: 'https://productimages.hepsiburada.net/s/777/200-200/110000709534530.jpg/format:webp', name: 'Kiwi KCC-4325W Koltuk Ve Halı Yıkama Makinesi', price: '5.919 TL', rating: 5 },
-        { image: 'https://productimages.hepsiburada.net/s/39/424-600/10620590751794.jpg/format:webp', name: ' Yakut SF-400 Hassas Mutfak Terazisi', price: '156,40 TL', rating: 5 },
-        { image: 'https://productimages.hepsiburada.net/s/49/424-600/10986513596466.jpg/format:webp', name: 'Kumtel Bej Fanlı Isıtıcı 2000 W LX', price: '509,00 TL', rating: 3 }
+        { image: 'https://cdn1.ntv.com.tr/gorsel/JRZBH1x8zUyl1Uh8u2A6ZQ.jpg?width=1000&mode=both&scale=both&v=1570250922315', name: 'Maleficent ', price: '2014', rating: 4 },
+        { image: 'https://i.ytimg.com/vi/mdsZWgomsOI/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDhJLRLKb3WGq38YB1DrlYtQ0Kn4g', name: 'The Gentlemen', price: '2019', rating: 4},
+        { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnzlHiCAg6duzg7OpefaW6kU2B6EO8WTDb7A&s', name: 'The Meg', price: '2018', rating: 5 },
+        { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSjaQlcsAFavT6FbR6Kc9bmHSnPGjUq0X3UA&s', name: 'X‑Men', price: '2000', rating: 4 },
+        { image: 'https://img.memurlar.net/galeri/16013/69504c12-be26-e911-80e7-a0369f7d1486.jpg?width=800', name: 'Escape Room', price: '2018', rating: 5 },
+        { image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTygp5oagIxcLM556bVYSb9UcBd9EpYOOoCLA&s', name: ' 3391 Kilometres ', price: '2024', rating: 4 },
+        { image: 'https://ia.tmgrup.com.tr/fec36b/0/0/0/0/0/0?u=http://i.tmgrup.com.tr/es/album/2019/01/02/ocak-ayinin-en-sevilen-filmler-1546438082142.jpg&mw=750', name: 'Bird Box', price: '2018', rating: 5 },
+        { image: 'https://www.limonproduction.com/uploads/hizmetler/4749dpoyraz-karayel-kuresel-sermaye.jpg', name: 'Poyraz Karayel: Küresel Sermaye', price: '2017', rating: 4 },
     ];
 
     const container = document.getElementById('recommendations');
